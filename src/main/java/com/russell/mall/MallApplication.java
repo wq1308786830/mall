@@ -12,7 +12,6 @@ import org.springframework.web.bind.annotation.RestController;
 @SpringBootApplication
 public class MallApplication implements CommandLineRunner {
 
-    // comment
     final private CityMapper cityMapper;
 
     @RequestMapping(value="/", method = RequestMethod.GET)
