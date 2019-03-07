@@ -14,4 +14,7 @@ public interface CityMapper {
     @Select("select * from city where state = #{state}")
     City findByState(@Param("state") String state);
 
+    @Select("select * from city where country = #{country}")
+    City findByCountry(@Param("country") String country);
+
 }
